@@ -1,4 +1,6 @@
-ff booster 
+name: Build FF Booster Pro APK
+
+on:
   push:
     branches: [ main ]
   workflow_dispatch:
@@ -27,4 +29,3 @@ jobs:
         with:
           name: FF-Booster-Pro-APK
           path: app/build/outputs/apk/debug/app-debug.apk
-          
