@@ -1,6 +1,4 @@
-Build FF Booster Pro APK
-
-on:
+ff booster 
   push:
     branches: [ main ]
   workflow_dispatch:
